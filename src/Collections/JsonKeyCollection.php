@@ -1,8 +1,8 @@
 <?php
 
-namespace Amirami\Localizator\Collections;
+namespace PatrickZuurbier\Localizator\Collections;
 
-use Amirami\Localizator\Contracts\Translatable;
+use PatrickZuurbier\Localizator\Contracts\Translatable;
 use Illuminate\Support\Collection;
 
 class JsonKeyCollection extends Translatable

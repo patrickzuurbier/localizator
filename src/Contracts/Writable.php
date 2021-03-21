@@ -1,10 +1,10 @@
 <?php
 
-namespace Amirami\Localizator\Contracts;
+namespace PatrickZuurbier\Localizator\Contracts;
 
 /**
  * Interface Writable
- * @package Amirami\Localizator\Contracts
+ * @package PatrickZuurbier\Localizator\Contracts
  */
 interface Writable
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Amirami\Localizator\Facades;
+namespace PatrickZuurbier\Localizator\Facades;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class Localizator
- * @package Amirami\Localizator\Facades
+ * @package PatrickZuurbier\Localizator\Facades
  *
  * @method static void localize(Collection $keys, string $type, string $locale)
- * @see \Amirami\Localizator\Services\Localizator
+ * @see \PatrickZuurbier\Localizator\Services\Localizator
  */
 class Localizator extends Facade
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Amirami\Localizator\Commands;
+namespace PatrickZuurbier\Localizator\Commands;
 
-use Amirami\Localizator\Facades\Localizator;
+use PatrickZuurbier\Localizator\Facades\Localizator;
 use Illuminate\Console\Command;
 
 /**
  * Class LocalizeCommand
- * @package Amirami\Localizator\Commands
+ * @package PatrickZuurbier\Localizator\Commands
  */
 class LocalizeCommand extends Command
 {
