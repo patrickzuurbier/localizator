@@ -1,12 +1,12 @@
 <?php
 
-namespace PatrickZuurbier\Localizator\Contracts;
+namespace Amirami\Localizator\Contracts;
 
 use Illuminate\Support\Collection;
 
 /**
  * Interface Collectable
- * @package PatrickZuurbier\Localizator\Contracts
+ * @package Amirami\Localizator\Contracts
  */
 interface Collectable
 {

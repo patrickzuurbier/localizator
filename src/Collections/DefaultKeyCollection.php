@@ -1,8 +1,8 @@
 <?php
 
-namespace PatrickZuurbier\Localizator\Collections;
+namespace Amirami\Localizator\Collections;
 
-use PatrickZuurbier\Localizator\Contracts\Translatable;
+use Amirami\Localizator\Contracts\Translatable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

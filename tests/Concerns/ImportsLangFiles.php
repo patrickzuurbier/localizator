@@ -1,10 +1,10 @@
 <?php
 
-namespace PatrickZuurbier\Localizator\Tests\Concerns;
+namespace Amirami\Localizator\Tests\Concerns;
 
 /**
  * Trait ImportsLangFiles
- * @package PatrickZuurbier\Localizator\Tests\Concerns
+ * @package Amirami\Localizator\Tests\Concerns
  */
 trait ImportsLangFiles
 {

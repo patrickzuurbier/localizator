@@ -1,15 +1,15 @@
 <?php
 
-namespace PatrickZuurbier\Localizator;
+namespace Amirami\Localizator;
 
-use PatrickZuurbier\Localizator\Commands\LocalizeCommand;
-use PatrickZuurbier\Localizator\Services\Collectors\DefaultKeyCollector;
-use PatrickZuurbier\Localizator\Services\Collectors\JsonKeyCollector;
-use PatrickZuurbier\Localizator\Services\FileFinder;
-use PatrickZuurbier\Localizator\Services\Localizator;
-use PatrickZuurbier\Localizator\Services\Parser;
-use PatrickZuurbier\Localizator\Services\Writers\DefaultWriter;
-use PatrickZuurbier\Localizator\Services\Writers\JsonWriter;
+use Amirami\Localizator\Commands\LocalizeCommand;
+use Amirami\Localizator\Services\Collectors\DefaultKeyCollector;
+use Amirami\Localizator\Services\Collectors\JsonKeyCollector;
+use Amirami\Localizator\Services\FileFinder;
+use Amirami\Localizator\Services\Localizator;
+use Amirami\Localizator\Services\Parser;
+use Amirami\Localizator\Services\Writers\DefaultWriter;
+use Amirami\Localizator\Services\Writers\JsonWriter;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 /**

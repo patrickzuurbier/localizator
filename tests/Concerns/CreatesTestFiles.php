@@ -1,12 +1,12 @@
 <?php
 
-namespace PatrickZuurbier\Localizator\Tests\Concerns;
+namespace Amirami\Localizator\Tests\Concerns;
 
 use RuntimeException;
 
 /**
  * Trait CreatesTestFiles
- * @package PatrickZuurbier\Localizator\Tests\Concerns
+ * @package Amirami\Localizator\Tests\Concerns
  */
 trait CreatesTestFiles
 {

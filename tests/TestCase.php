@@ -1,16 +1,16 @@
 <?php
 
-namespace PatrickZuurbier\Localizator\Tests;
+namespace Amirami\Localizator\Tests;
 
-use PatrickZuurbier\Localizator\ServiceProvider;
-use \PatrickZuurbier\Tests\Concerns\CreatesTestFiles;
-use \PatrickZuurbier\Tests\Concerns\ImportsLangFiles;
+use Amirami\Localizator\ServiceProvider;
+use Amirami\Localizator\Tests\Concerns\CreatesTestFiles;
+use Amirami\Localizator\Tests\Concerns\ImportsLangFiles;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Symfony\Component\Finder\Finder;
 
 /**
  * Class TestCase
- * @package PatrickZuurbier\Localizator\Tests
+ * @package Amirami\Localizator\Tests
  */
 class TestCase extends Orchestra
 {
