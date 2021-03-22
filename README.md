@@ -1,8 +1,8 @@
 # Localizator
 
 ![Tests](https://github.com/amiranagram/localizator/workflows/Tests/badge.svg)
-[![Total Downloads](https://img.shields.io/packagist/dt/amirami/localizator.svg)](https://packagist.org/packages/amirami/localizator)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/amirami/localizator.svg)](https://packagist.org/packages/amirami/localizator)
+[![Total Downloads](https://img.shields.io/packagist/dt/patrickzuurbier/localizator.svg)](https://packagist.org/packages/patrickzuurbier/localizator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/patrickzuurbier/localizator.svg)](https://packagist.org/packages/patrickzuurbier/localizator)
 
 Localizator is a small tool for Laravel that gives you the ability to extract untranslated string from your project files with one command.
 
@@ -11,7 +11,7 @@ Localizator is a small tool for Laravel that gives you the ability to extract un
 You can install the package via composer:
 
 ```bash
-composer require --dev amirami/localizator
+composer require --dev patrickzuurbier/localizator
 ```
 
 This package makes use of [Laravels package auto-discovery mechanism](https://medium.com/@taylorotwell/package-auto-discovery-in-laravel-5-5-ea9e3ab20518), which means if you don't install dev dependencies in production, it also won't be loaded.
@@ -22,7 +22,7 @@ If for some reason you want manually control this:
   "extra": {
     "laravel": {
       "dont-discover": [
-        "amirami/localizator"
+        "patrickzuurbier/localizator"
       ]
     }
   }

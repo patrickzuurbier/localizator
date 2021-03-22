@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `amirami/localizator` will be documented in this file.
+All notable changes to `patrickzuurbier/localizator` will be documented in this file.
 
 ## v0.3-alpha
 
