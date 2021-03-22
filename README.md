@@ -29,14 +29,14 @@ If for some reason you want manually control this:
   ```
 - Add the following class to the `providers` array in `config/app.php`:
   ```php
-  Amirami\Localizator\ServiceProvider::class,
+  PatrickZuurbier\Localizator\ServiceProvider::class,
   ```
   If you want to manually load it only in non-production environments, instead you can add this to your `AppServiceProvider` with the `register()` method:
   ```php
   public function register()
   {
       if ($this->app->isLocal()) {
-          $this->app->register(\Amirami\Localizator\ServiceProvider::class);
+          $this->app->register(\PatrickZuurbier\Localizator\ServiceProvider::class);
       }
       // ...
   }
@@ -46,7 +46,7 @@ If for some reason you want manually control this:
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Amirami\Localizator\ServiceProvider" --tag="config"
+php artisan vendor:publish --provider="PatrickZuurbier\Localizator\ServiceProvider" --tag="config"
 ```
 
 This is the contents of the published config file:

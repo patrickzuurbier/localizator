@@ -1,13 +1,13 @@
 <?php
 
-namespace Amirami\Localizator\Services;
+namespace PatrickZuurbier\Localizator\Services;
 
 use Illuminate\Support\Collection;
 use Symfony\Component\Finder\Finder;
 
 /**
  * Class FileFinder
- * @package Amirami\Localizator\Services
+ * @package PatrickZuurbier\Localizator\Services
  */
 class FileFinder
 {

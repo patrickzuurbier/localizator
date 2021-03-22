@@ -1,14 +1,14 @@
 <?php
 
-namespace Amirami\Localizator\Services;
+namespace PatrickZuurbier\Localizator\Services;
 
-use Amirami\Localizator\Contracts\Collectable;
-use Amirami\Localizator\Contracts\Translatable;
-use Amirami\Localizator\Contracts\Writable;
+use PatrickZuurbier\Localizator\Contracts\Collectable;
+use PatrickZuurbier\Localizator\Contracts\Translatable;
+use PatrickZuurbier\Localizator\Contracts\Writable;
 
 /**
  * Class Localizator
- * @package Amirami\Localizator\Services
+ * @package PatrickZuurbier\Localizator\Services
  */
 class Localizator
 {

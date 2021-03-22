@@ -1,16 +1,16 @@
 <?php
 
-namespace Amirami\Localizator\Services;
+namespace PatrickZuurbier\Localizator\Services;
 
-use Amirami\Localizator\Collections\DefaultKeyCollection;
-use Amirami\Localizator\Collections\JsonKeyCollection;
+use PatrickZuurbier\Localizator\Collections\DefaultKeyCollection;
+use PatrickZuurbier\Localizator\Collections\JsonKeyCollection;
 use Illuminate\Support\Collection;
 use RuntimeException;
 use Symfony\Component\Finder\SplFileInfo;
 
 /**
  * Class Parser
- * @package Amirami\Localizator\Services
+ * @package PatrickZuurbier\Localizator\Services
  */
 class Parser
 {

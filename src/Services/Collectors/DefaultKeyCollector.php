@@ -1,9 +1,9 @@
 <?php
 
-namespace Amirami\Localizator\Services\Collectors;
+namespace PatrickZuurbier\Localizator\Services\Collectors;
 
-use Amirami\Localizator\Collections\DefaultKeyCollection;
-use Amirami\Localizator\Contracts\Collectable;
+use PatrickZuurbier\Localizator\Collections\DefaultKeyCollection;
+use PatrickZuurbier\Localizator\Contracts\Collectable;
 use Illuminate\Support\Collection;
 use RuntimeException;
 use Symfony\Component\Finder\Finder;
@@ -11,7 +11,7 @@ use Symfony\Component\Finder\SplFileInfo;
 
 /**
  * Class DefaultKeyCollector
- * @package Amirami\Localizator\Services\Collectors
+ * @package PatrickZuurbier\Localizator\Services\Collectors
  */
 class DefaultKeyCollector implements Collectable
 {

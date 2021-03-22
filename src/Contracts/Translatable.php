@@ -1,12 +1,12 @@
 <?php
 
-namespace Amirami\Localizator\Contracts;
+namespace PatrickZuurbier\Localizator\Contracts;
 
 use Illuminate\Support\Collection;
 
 /**
  * Class Translatable
- * @package Amirami\Localizator\Contracts
+ * @package PatrickZuurbier\Localizator\Contracts
  */
 abstract class Translatable extends Collection
 {

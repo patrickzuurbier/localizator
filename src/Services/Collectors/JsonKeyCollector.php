@@ -1,14 +1,14 @@
 <?php
 
-namespace Amirami\Localizator\Services\Collectors;
+namespace PatrickZuurbier\Localizator\Services\Collectors;
 
-use Amirami\Localizator\Collections\JsonKeyCollection;
-use Amirami\Localizator\Contracts\Collectable;
+use PatrickZuurbier\Localizator\Collections\JsonKeyCollection;
+use PatrickZuurbier\Localizator\Contracts\Collectable;
 use Illuminate\Support\Collection;
 
 /**
  * Class JsonKeyCollector
- * @package Amirami\Localizator\Services\Collectors
+ * @package PatrickZuurbier\Localizator\Services\Collectors
  */
 class JsonKeyCollector implements Collectable
 {

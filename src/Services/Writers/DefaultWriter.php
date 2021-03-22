@@ -1,16 +1,16 @@
 <?php
 
-namespace Amirami\Localizator\Services\Writers;
+namespace PatrickZuurbier\Localizator\Services\Writers;
 
-use Amirami\Localizator\Collections\DefaultKeyCollection;
-use Amirami\Localizator\Contracts\Translatable;
-use Amirami\Localizator\Contracts\Writable;
+use PatrickZuurbier\Localizator\Collections\DefaultKeyCollection;
+use PatrickZuurbier\Localizator\Contracts\Translatable;
+use PatrickZuurbier\Localizator\Contracts\Writable;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
 
 /**
  * Class DefaultWriter
- * @package Amirami\Localizator\Services\Writers
+ * @package PatrickZuurbier\Localizator\Services\Writers
  */
 class DefaultWriter implements Writable
 {

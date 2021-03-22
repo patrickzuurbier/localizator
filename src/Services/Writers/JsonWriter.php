@@ -1,14 +1,14 @@
 <?php
 
-namespace Amirami\Localizator\Services\Writers;
+namespace PatrickZuurbier\Localizator\Services\Writers;
 
-use Amirami\Localizator\Contracts\Translatable;
-use Amirami\Localizator\Contracts\Writable;
+use PatrickZuurbier\Localizator\Contracts\Translatable;
+use PatrickZuurbier\Localizator\Contracts\Writable;
 use Illuminate\Filesystem\Filesystem;
 
 /**
  * Class JsonWriter
- * @package Amirami\Localizator\Services\Writers
+ * @package PatrickZuurbier\Localizator\Services\Writers
  */
 class JsonWriter implements Writable
 {

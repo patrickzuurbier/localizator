@@ -1,10 +1,10 @@
 <?php
 
-namespace Amirami\Localizator\Tests;
+namespace PatrickZuurbier\Localizator\Tests;
 
 /**
  * Class LocalizatorTest
- * @package Amirami\Localizator\Tests
+ * @package PatrickZuurbier\Localizator\Tests
  */
 class LocalizatorTest extends TestCase
 {
