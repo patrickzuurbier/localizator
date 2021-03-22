@@ -2,7 +2,7 @@
 
 namespace PatrickZuurbier\Localizator;
 
-use PatrickZuurbier\Localizator\Commands\LocalizeCommand;
+use PatrickZuurbier\Localizator\Console\LocalizeCommand;
 use PatrickZuurbier\Localizator\Services\Collectors\DefaultKeyCollector;
 use PatrickZuurbier\Localizator\Services\Collectors\JsonKeyCollector;
 use PatrickZuurbier\Localizator\Services\FileFinder;

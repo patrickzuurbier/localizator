@@ -1,13 +1,13 @@
 <?php
 
-namespace PatrickZuurbier\Localizator\Commands;
+namespace PatrickZuurbier\Localizator\Console;
 
 use PatrickZuurbier\Localizator\Facades\Localizator;
 use Illuminate\Console\Command;
 
 /**
  * Class LocalizeCommand
- * @package PatrickZuurbier\Localizator\Commands
+ * @package PatrickZuurbier\Localizator\Console
  */
 class LocalizeCommand extends Command
 {
