@@ -33,9 +33,10 @@ class FileFinder
         $directories = array_map(static function ($dir) {
             return base_path($dir);
         }, $this->config['search']['dirs']);
+        $finder = new Finder();
 
         return new Collection(
-            (new Finder)->in($directories)->name($this->config['search']['patterns'])->files()
+            $finder->path($directories)->name($this->config['search']['patterns'])->files()
         );
     }
 }
